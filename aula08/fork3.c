@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main(int argc, char *argv[])
+int main()
 {
     printf("Pai (antes do fork): PID = %u, PPID = %u\n", getpid(), getppid());
     switch (fork())
